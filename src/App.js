@@ -44,10 +44,7 @@ function App() {
           <Route exact path="/Auctionlist.html" component={Auctionlist}></Route>
           <Route exact path="/AuctionDetails.html" component={AuctionDetails}></Route>
           <Route exact path="/Placebid.html" component={Placebid}></Route>
-          
-          
-          
-          <Route exact path="/AuctionCat.html" component={AuctionCat}></Route>
+         <Route exact path="/AuctionCat.html" component={AuctionCat}></Route>
         </Switch>
         </BrowserRouter>
     </div>

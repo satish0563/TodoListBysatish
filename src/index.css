@@ -11,3 +11,134 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.readmore
+{
+
+width: 100%;
+margin: 20px;
+
+}
+.readmorebody
+{
+  width: 95%;
+  margin-top: 30px;
+}
+.readmoretitle
+{
+  width: 95%;
+  margin-top: 25px;
+  font-weight: bold;
+}
+.readmoreimage
+{
+  width: 95%;
+  height: 430px;
+}
+.imagetitle
+{
+margin-left: 33px;
+margin-top: -4px;
+
+}
+
+.mymodal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 650px;
+  width: 700px;
+  border: 1px solid #ccc;
+  background: #fff;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+}
+
+.loader
+{
+	position: relative;
+	left: 30%;
+    top: 60%;
+	margin: 109px;
+	z-index: 1000;
+}
+.alignleft {
+	float: left;
+	margin-left: 25px;
+	color: rgb(37, 12, 85);
+
+}
+.alignright {
+	float: right;
+	margin-right: 25px;
+	color: white;
+
+}
+
+.alignleftmodle {
+	text-align:left;
+	margin-left: 25px;
+}
+.alignrightmodle {
+	float:right;
+	margin-right: 40px;
+}
+.aligncentre
+{
+	text-align:center;
+  font-weight: bold;
+
+}
+.aligncentreval
+{
+
+	margin-left: 900px;
+}
+.myoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.buttonmodel
+{
+  float: right;
+ 
+}
+
+.buttonmodel
+{
+  float: right;
+  margin-top: -23px;
+
+ 
+}
+.headerincrement
+{
+height: 55px;
+width: 100%;
+background-color: #39ac31;
+	
+}
+.headerp
+{
+height: 25px;
+width: 100%;
+background-color: hsl(0, 0%, 100%);
+	
+}
+
+
+
+.textplacebid
+{
+
+  margin-left: 925px;
+  color: blue;
+}

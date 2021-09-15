@@ -8,12 +8,9 @@ import { Button } from 'react-bootstrap'
 
  export default function Header()
 {
-
-
 return(
 <>
- 
-  <Navbar bg="danger" variant="dark">
+ <Navbar bg="danger" variant="dark">
     <Container bg="primary">
     <Navbar.Brand href="/">Redux Todo</Navbar.Brand>
     <Nav className="me-auto">
@@ -23,8 +20,7 @@ return(
     </Nav>
     <Nav>
       <Nav.Link href="/Addpost">  <Button variant="dark">Add Todo</Button></Nav.Link>
-      
-    </Nav>
+      </Nav>
     </Container>
   </Navbar>
 
